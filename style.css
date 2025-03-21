@@ -1,6 +1,45 @@
-
-
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 10%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 ol {
-  list-style-type:  none;
+    list-style-type:none;
+}
+
+header {
+    text-align: center
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+   max-width: 900px;
+   column-count: 2;
+   column-gap: 30px;
+}
+
+.part1 {
+  
+}
+
+.part2 {
+  
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    width:100%;
 }
