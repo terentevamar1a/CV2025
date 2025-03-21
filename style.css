@@ -14,13 +14,15 @@ ol {
 }
 
 header {
-    text-align: center
+    text-align: center;
 }
 header img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    width: 250px; 
+    height: 250px;
 }
 
 article {
@@ -30,11 +32,23 @@ article {
 }
 
 .part1 {
-  
+
 }
 
 .part2 {
   
+}
+
+h2 {
+    color: rgb(3, 99, 0);
+}
+
+h3 {
+    color: rgb(65, 65, 65);
+}
+
+h1 {
+    color: rgb(242, 89, 0);
 }
 
 footer {
