@@ -79,3 +79,35 @@ footer {
     background-color: #015209;
     color: white;
 }
+@media (max-width: 768px) {
+    .container {
+        column-count: 1;
+        display: block;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column {
+        width: 100%;
+    }
+    .header {
+        text-align: center;
+    }
+    .header img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .header img {
+        max-width: 120px;
+    }
+}
