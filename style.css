@@ -1,35 +1,76 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.5em;
     margin: 0;
-    padding:0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     color: #363636;
-  }
+}
 
 ol {
-    list-style-type:none;
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+    /* Убираем отступы по умолчанию */
+}
+
+li {
+    margin-bottom: 5px;
+    /* Отступ между пунктами списка */
 }
 
 .header {
     position: relative;
     width: 100%;
-    background-color: #014a00;
+    background-color: #ff6f00;
     color: white;
+    padding: 20px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* Элементы внутри header будут располагаться вертикально */
+    align-items: center;
+    /* Выравнивает элементы по центру по горизонтали */
     text-align: center;
-    padding: 50px 20px;
-    clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
+
+.change-lang {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #ff6a00;
+    border-radius: 5px;
+    background-color: white;
+    color: #014a00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.change-lang:hover {
+    background-color: #ff6a00;
+    color: white;
+    border-color: #ff6a00;
+}
+
+.change-lang:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(1, 74, 0, 0.5);
+}
+
 header img {
     width: 250px;
+    /* указываем размер картинки */
     height: 250px;
-    display: block;
+    display: flex;
     margin: 40px auto;
-    border: 4px solid #70ad74;
+    border: 4px solid #bddaf8;
     border-radius: 50%;
 }
 
@@ -49,7 +90,7 @@ header img {
 }
 
 .left-column {
-    background-color: #b0c3b066;
+    background-color: #bddaf8;
     width: 35%;
 }
 
@@ -58,8 +99,12 @@ header img {
     width: 65%;
 }
 
+.place {
+    text-align: center;
+}
+
 h2 {
-    color: #668568;
+    color: #004d9d;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -70,7 +115,7 @@ h3 {
 }
 
 h1 {
-    color: #ff6f00;
+    color: white;
     text-align: center;
 }
 
@@ -87,7 +132,8 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100vw;
-    background-color: #014a00;
+    font-size: 17px;
+    background-color: #00254b;
     color: white;
     position: relative;
 }
@@ -98,20 +144,26 @@ footer {
         display: flex;
         align-items: center;
     }
-    .left-column, .right-column {
+
+    .left-column,
+    .right-column {
         width: 100%;
     }
+
     .columns {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .column {
         width: 100%;
     }
+
     .header {
         text-align: center;
     }
+
     .header img {
         max-width: 150px;
     }
@@ -121,17 +173,21 @@ footer {
     body {
         padding: 10px;
     }
+
     h1 {
         font-size: 30px;
     }
+
     h2 {
         text-align: center;
         font-size: 20px;
     }
+
     .contacts {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     .header img {
         max-width: 120px;
     }
