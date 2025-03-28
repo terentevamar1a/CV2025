@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 17px;
     line-height: 1.5em;
     margin: 0;
@@ -28,50 +28,67 @@ li {
 .header {
     position: relative;
     width: 100%;
+    height: 500px;
     background-color: #ff6f00;
     color: white;
     padding: 20px;
     margin: 0 0 30px 0;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    /* Элементы внутри header будут располагаться вертикально */
+    align-items: center; /* Центрирование по вертикали */
+    text-align: left; /* Выравнивание текста */
+}
+
+.header-content {
+    display: flex;
     align-items: center;
-    /* Выравнивает элементы по центру по горизонтали */
-    text-align: center;
+    gap: 20px; /* Расстояние между картинкой и текстом */
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #bddaf8;
+    border-radius: 50%;
+}
+
+.header-text h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.header-text h2 {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.place {
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 .change-lang {
     padding: 8px 12px;
-    font-size: 16px;
-    border: 2px solid #ff6a00;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
     border-radius: 5px;
-    background-color: white;
-    color: #014a00;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .change-lang:hover {
-    background-color: #ff6a00;
-    color: white;
-    border-color: #ff6a00;
+    background-color: white;
+    color: #ff6f00;
 }
 
 .change-lang:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(1, 74, 0, 0.5);
-}
-
-header img {
-    width: 250px;
-    /* указываем размер картинки */
-    height: 250px;
-    display: flex;
-    margin: 40px auto;
-    border: 4px solid #bddaf8;
-    border-radius: 50%;
 }
 
 .contacts {
@@ -131,11 +148,19 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    width: 100vw;
+    width: 100%;
     font-size: 17px;
     background-color: #00254b;
     color: white;
     position: relative;
+    margin: 30px 0 0 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Расстояние между элементами */
+    flex-wrap: wrap; /* Чтобы элементы не слипались на маленьких экранах */
 }
 
 @media (max-width: 768px) {
@@ -155,6 +180,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .article {
+        padding: 20px;
+    }
 
     .column {
         width: 100%;
@@ -162,16 +190,28 @@ footer {
 
     .header {
         text-align: center;
+        margin: 0;
     }
 
-    .header img {
-        max-width: 150px;
+    footer {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+
     }
 }
 
 @media (max-width: 480px) {
     body {
-        padding: 10px;
+
+    }
+
+    .header {
+        margin: 0;
     }
 
     h1 {
@@ -188,7 +228,7 @@ footer {
         padding-right: 30px;
     }
 
-    .header img {
-        max-width: 120px;
+    footer {
+        margin: 0;
     }
 }
