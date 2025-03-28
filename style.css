@@ -73,14 +73,14 @@ li {
 
 .place {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .change-lang {
     padding: 8px 12px;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
-    /*border: 2px solid white;*/
+    border: 2px solid white;
     border-radius: 5px;
     background-color: transparent;
     color: #ff6f00;
@@ -90,13 +90,13 @@ li {
 }
 
 .change-lang:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: #ff6f00;
 }
 
 .change-lang:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(1, 74, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 8, 255, 0.5);
 }
 
 .contacts {
@@ -172,6 +172,11 @@ footer div {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        max-width: fit-content;
+    }
+
     .container {
         flex-direction: column;
         display: flex;
@@ -199,6 +204,29 @@ footer div {
     .header {
         text-align: center;
         margin: 0;
+        font-size: 20px;
+    }
+
+    .header-content {
+        padding-left: 0;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-text h1 {
+        font-size: 22px;
+    }
+
+    .header-text h2 {
+        font-size: 16px;
+    }
+
+    .change-lang {
+        font-size: 14px;
+        padding: 4px 8px;
     }
 
     footer {
@@ -213,6 +241,7 @@ footer div {
 
     .header {
         margin: 0;
+        height: fit-content;
     }
 
     h1 {
@@ -231,5 +260,9 @@ footer div {
 
     footer {
         margin: 0;
+    }
+
+    .header-content {
+        padding: 0;
     }
 }
