@@ -29,8 +29,8 @@ li {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: #ff6f00;
-    color: white;
+    background-color: #ffffff;
+    color: #ff6f00;
     padding: 20px;
     margin: 0 0 30px 0;
     font-size: 40px;
@@ -58,7 +58,7 @@ li {
 
 .header-text h1 {
     font-size: 32px;
-
+    color: #000000;
 }
 
 .header-text h2 {
@@ -83,7 +83,7 @@ li {
     /*border: 2px solid white;*/
     border-radius: 5px;
     background-color: transparent;
-    color: white;
+    color: #ff6f00;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -161,7 +161,7 @@ footer {
     background-color: #00254b;
     color: white;
     position: relative;
-    margin: 30px 0 0 0;
+    margin: 0;
 }
 
 footer div {
