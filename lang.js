@@ -10,8 +10,8 @@ const langArr = {
         "fr": "Marie Terenteva",
     },
     "place": {
-        "ru": "Минск, Беларусь | maria.trntva@gmail.com | +375 25 912 63 14",
-        "en": "Minsk, Belarus | maria.trntva@gmail.com ",
+        "ru": "Минск, Беларусь | maria.trntva@gmail.com",
+        "en": "Minsk, Belarus | maria.trntva@gmail.com",
         "fr": "Minsk, Biélorussie | maria.trntva@gmail.com",
     },
     "aboutme": {
