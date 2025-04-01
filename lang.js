@@ -1,8 +1,8 @@
 const langArr = {
     unit: {
-        ru: "Мария Терентьева CV",
-        en: "Maria Terenteva CV",
-        fr: "Marie Terenteva CV"
+        ru: "Мария Терентьева CV!",
+        en: "Maria Terenteva CV!",
+        fr: "Marie Terenteva CV!"
     },
     "name": {
         "ru": "Мария Терентьева",
@@ -11,7 +11,7 @@ const langArr = {
     },
     "place": {
         "ru": "Минск, Беларусь | maria.trntva@gmail.com",
-        "en": "Minsk, Belarus | maria.trntva@gmail.com",
+        "en": "Minsk, Belarus | maria.trntva@gmail.com ",
         "fr": "Minsk, Biélorussie | maria.trntva@gmail.com",
     },
     "aboutme": {
@@ -219,10 +219,15 @@ const langArr = {
         "en": "Additional courses and certificates",
         "fr": "Cours et certificats supplémentaires",
     },
+    "certificate": {
+        "ru": "Сертификат об уровне английского языка - C1 Продвинутый",
+        "en": "The Certificate of English Level - C1 Advanced",
+        "fr": "Le certificat d'anglais - C1 avancé",
+    },
     "workshop": {
-        "ru": "The Art of Business Email</b> <i>(Streamline, 2025)</i> - оффлайн воркшоп.",
-        "en": "The Art of Business Email</b> <i>(Streamline, 2025)</i> - an offline workshop.",
-        "fr": "L'art de l'e-mail professionnel</b> <i>(Streamline, 2025)</i> - un atelier hors ligne.",
+        "ru": "The Art of Business Email</b> <i>(Streamline, 2023)</i> - оффлайн воркшоп.",
+        "en": "The Art of Business Email</b> <i>(Streamline, 2023)</i> - an offline workshop.",
+        "fr": "L'art de l'e-mail professionnel</b> <i>(Streamline, 2023)</i> - un atelier hors ligne.",
     },
     "references": {
         "ru": "Рекомендации",
