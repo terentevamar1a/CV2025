@@ -10,9 +10,9 @@ const langArr = {
         "fr": "Marie Terenteva",
     },
     "place": {
-        "ru": "Минск, Беларусь | maria.trntva@gmail.com",
-        "en": "Minsk, Belarus | maria.trntva@gmail.com ",
-        "fr": "Minsk, Biélorussie | maria.trntva@gmail.com",
+        "ru": "<i>Минск, Беларусь | maria.trntva@gmail.com</i>",
+        "en": "<i>Minsk, Belarus | maria.trntva@gmail.com</i>",
+        "fr": "<i>Minsk, Biélorussie | maria.trntva@gmail.com</i>",
     },
     "aboutme": {
         "ru": "Обо мне",
@@ -40,29 +40,29 @@ const langArr = {
         "fr": "Compétences",
     },
     "skills0": {
-        "ru": "Иностранные языки: Английский (С1)</b> - деловое общение, переписка, звонки; Французский (В1) - чтение, перевод;",
-        "en": "Foreign Languages: English (C1)</b> - business communication, mail, calls; French (B1) - reading, translation;",
-        "fr": "Langues étrangères : Anglais (C1)</b> - communication professionnelle, courrier, appels ; français (B1) - lecture, traduction ;",
+        "ru": "<b>Иностранные языки: Английский (С1)</b> - деловое общение, переписка, звонки; Французский (В1) - чтение, перевод;",
+        "en": "<b>Foreign Languages: English (C1)</b> - business communication, mail, calls; French (B1) - reading, translation;",
+        "fr": "<b>Langues étrangères : Anglais (C1)</b> - communication professionnelle, courrier, appels ; français (B1) - lecture, traduction ;",
     },
     "skills1": {
-        "ru": "Клиентский сервис и поддержка:</b> консультации клиентов в чатах, мессенджерах, по email и телефону (русский, английский); обработка до 150+ заявок в день, работа с возражениями; поддержка рекламных аккаунтов (Google Ads, Meta Business Suite, Bigo Ads); решение технических и организационных вопросов.",
-        "en": "Customer support services:</b> client consultations in live chat, messengers, email and phone (Russian, English); processing up to 150+ requests per day, handling objections; supporting advertising accounts (Google Ads, Meta Business Suite, Bigo Ads); solving technical and organisational issues.",
-        "fr": "Services d'assistance à la clientèle : </b> consultations des clients par chat en direct, messageries, courrier électronique et téléphone (russe, anglais) ; traitement de plus de 150 demandes par jour, traitement des objections ; prise en charge des comptes publicitaires (Google Ads, Meta Business Suite, Bigo Ads) ; résolution des problèmes techniques et organisationnels.",
+        "ru": "<b>Клиентский сервис и поддержка:</b> консультации клиентов в чатах, мессенджерах, по email и телефону (русский, английский); обработка до 150+ заявок в день, работа с возражениями; поддержка рекламных аккаунтов (Google Ads, Meta Business Suite, Bigo Ads); решение технических и организационных вопросов.",
+        "en": "<b>Customer support services:</b> client consultations in live chat, messengers, email and phone (Russian, English); processing up to 150+ requests per day, handling objections; supporting advertising accounts (Google Ads, Meta Business Suite, Bigo Ads); solving technical and organisational issues.",
+        "fr": "<b>Services d'assistance à la clientèle : </b> consultations des clients par chat en direct, messageries, courrier électronique et téléphone (russe, anglais) ; traitement de plus de 150 demandes par jour, traitement des objections ; prise en charge des comptes publicitaires (Google Ads, Meta Business Suite, Bigo Ads) ; résolution des problèmes techniques et organisationnels.",
     },
     "skills2": {
-        "ru": "Рекламные технологии и аналитика:</b> создание и ведение рекламных кампаний в Google Ads, Meta Ads; настройка, пополнение баланса, верификация рекламных аккаунтов; работа с отчетностью, анализ эффективности кампаний.",
-        "en": "Advertising technologies and analytics:</b> creation and maintenance of advertising ad campaigns in Google Ads, Meta Ads; setup, top-up, verification of advertising accounts; work with accounts, analyses of campaign efficiency.",
-        "fr": "Technologies publicitaires et analyses : </b> création et maintenance de campagnes publicitaires dans Google Ads, Meta Ads ; mise en place, recharge, vérification de comptes publicitaires ; travail avec les comptes, analyses de l'efficacité des campagnes.",
+        "ru": "<b>Рекламные технологии и аналитика:</b> создание и ведение рекламных кампаний в Google Ads, Meta Ads; настройка, пополнение баланса, верификация рекламных аккаунтов; работа с отчетностью, анализ эффективности кампаний.",
+        "en": "<b>Advertising technologies and analytics:</b> creation and maintenance of advertising ad campaigns in Google Ads, Meta Ads; setup, top-up, verification of advertising accounts; work with accounts, analyses of campaign efficiency.",
+        "fr": "<b>Technologies publicitaires et analyses : </b> création et maintenance de campagnes publicitaires dans Google Ads, Meta Ads ; mise en place, recharge, vérification de comptes publicitaires ; travail avec les comptes, analyses de l'efficacité des campagnes.",
     },
     "skills3": {
-        "ru": "Инструменты:</b> CRM (Bitrix24, 1C), Google Sheets (формулы, сводные таблицы); AI-чаты и автоматизация клиентского сервиса; аналитика рекламных кампаний и оптимизация стратегий продвижения.",
-        "en": "Tools:</b> CRM (Bitrix24, 1C), Google Sheets (formulas, summary tables); AI chats and customer service automation; analytics of advertising campaigns and optimisation of promotional strategies.",
-        "fr": "Instruments:</b> CRM (Bitrix24, 1C), Google Sheets (formules, tableaux récapitulatifs) ; chats AI et automatisation du service clientèle ; analyse des campagnes publicitaires et optimisation des stratégies promotionnelles.",
+        "ru": "<b>Инструменты:</b> CRM (Bitrix24, 1C), Google Sheets (формулы, сводные таблицы); AI-чаты и автоматизация клиентского сервиса; аналитика рекламных кампаний и оптимизация стратегий продвижения.",
+        "en": "<b>Tools:</b> CRM (Bitrix24, 1C), Google Sheets (formulas, summary tables); AI chats and customer service automation; analytics of advertising campaigns and optimisation of promotional strategies.",
+        "fr": "<b>Instruments:</b> CRM (Bitrix24, 1C), Google Sheets (formules, tableaux récapitulatifs) ; chats AI et automatisation du service clientèle ; analyse des campagnes publicitaires et optimisation des stratégies promotionnelles.",
     },
     "skills4": {
-        "ru": "Soft-skills:</b> тайм-менеджмент, многозадачность, аналитическое мышление, адаптивность.",
-        "en": "Soft-skills:</b> time management, multi-tasking, analytical thinking, adaptability.",
-        "fr": "Soft-skills:</b> gestion du temps, multitâches, esprit d'analyse, capacité d'adaptation.",
+        "ru": "<b>Soft-skills:</b> тайм-менеджмент, многозадачность, аналитическое мышление, адаптивность.",
+        "en": "<b>Soft-skills:</b> time management, multi-tasking, analytical thinking, adaptability.",
+        "fr": "<b>Soft-skills:</b> gestion du temps, multitâches, esprit d'analyse, capacité d'adaptation.",
     },
     "expertise": {
         "ru": "Опыт",
@@ -75,9 +75,9 @@ const langArr = {
         "fr": "Spécialiste de l'assistance à la clientèle",
     },
     "company": {
-        "ru": "Гроу Медиа | Сентябрь 2024 - Март 2025",
-        "en": "Grow Media | September 2024 - March 2025",
-        "fr": "Grow Media | septembre 2024 - mars 2025",
+        "ru": "<i>Гроу Медиа | Сентябрь 2024 - Март 2025</i>",
+        "en": "<i>Grow Media | September 2024 - March 2025</i>",
+        "fr": "<i>Grow Media | septembre 2024 - mars 2025</i>",
     },
     "expertise1": {
         "ru": "Консультировала клиентов по продукту компании в чатах (русский, английский);",
@@ -105,9 +105,9 @@ const langArr = {
         "fr": "Spécialiste de l'assistance à la clientèle (Direction internationale)",
     },
     "position2": {
-        "ru": "Квери Сапп | Июнь 2024 - Август 2024",
-        "en": "Query Supp | June 2024 - August 2024",
-        "fr": "Query Supp | juin 2024 - août 2024",
+        "ru": "<i>Квери Сапп | Июнь 2024 - Август 2024</i>",
+        "en": "<i>Query Supp | June 2024 - August 2024</i>",
+        "fr": "<i>Query Supp | juin 2024 - août 2024</i>",
     },
     "expertise5": {
         "ru": "Вела поддержку иностранных клиентов в мессенджерах и LiveChat (английский);",
@@ -130,9 +130,9 @@ const langArr = {
         "fr": "Spécialiste des services à la clientèle - Publicité numérique",
     },
     "position3": {
-        "ru": "ТВК | Январь 2023 - Октябрь 2023",
-        "en": "TVK | January 2023 - October 2023",
-        "fr": "TVK | janvier 2023 - octobre 2023",
+        "ru": "<i>ТВК | Январь 2023 - Октябрь 2023</i>",
+        "en": "<i>TVK | January 2023 - October 2023</i>",
+        "fr": "<i>TVK | janvier 2023 - octobre 2023</i>",
     },
     "expertise8": {
         "ru": "Работала с рекламными кампаниями в Meta Business Suite: запуск, настройка, аудит;",
@@ -155,9 +155,9 @@ const langArr = {
         "fr": "Stage à l'UNESCO",
     },
     "position4": {
-        "ru": "Университетская стажировка | 2022",
-        "en": "University internship | 2022",
-        "fr": "Stage universitaire | 2022",
+        "ru": "<i>Университетская стажировка | 2022</i>",
+        "en": "<i>University internship | 2022</i>",
+        "fr": "<i>Stage universitaire | 2022</i>",
     },
     "expertise11": {
         "ru": "Работала с информационными материалами и отчетами;",
@@ -180,9 +180,9 @@ const langArr = {
         "fr": "Stage chez AKS-Mebel (ventes et communications internationales)",
     },
     "position5": {
-        "ru": "Университетская стажировка | 2022",
-        "en": "University internship | 2022",
-        "fr": "Stage universitaire | 2022",
+        "ru": "<i>Университетская стажировка | 2022</i>",
+        "en": "<i>University internship | 2022</i>",
+        "fr": "<i>Stage universitaire | 2022</i>",
     },
     "expertise14": {
         "ru": "Проведение холодных звонков на английском и французском языках;",
@@ -205,9 +205,9 @@ const langArr = {
         "fr": "L'éducation",
     },
     "university": {
-        "ru": "Минский Государственный Лингвистический Университет:",
-        "en": "Minsk State Linguistic University",
-        "fr": "Université linguistique d'État de Minsk",
+        "ru": "<i>Минский Государственный Лингвистический Университет:</i>",
+        "en": "<i>Minsk State Linguistic University:</i>",
+        "fr": "<i>Université linguistique d'État de Minsk:</i>",
     },
     "bachelor": {
         "ru": "Переводчик с английского и французского языков",
@@ -220,14 +220,14 @@ const langArr = {
         "fr": "Cours et certificats supplémentaires",
     },
     "certificate": {
-        "ru": "Сертификат об уровне английского языка - C1 Продвинутый",
-        "en": "The Certificate of English Level - C1 Advanced",
-        "fr": "Le certificat d'anglais - C1 avancé",
+        "ru": "Сертификат об уровне английского языка (2025) - <b>C1 Продвинутый</b>",
+        "en": "The Certificate of English Level (2025) - <b>C1 Advanced</b>",
+        "fr": "Le certificat d'anglais (2025) - <b>C1 avancé</b>",
     },
     "workshop": {
-        "ru": "The Art of Business Email</b> <i>(Streamline, 2023)</i> - оффлайн воркшоп.",
-        "en": "The Art of Business Email</b> <i>(Streamline, 2023)</i> - an offline workshop.",
-        "fr": "L'art de l'e-mail professionnel</b> <i>(Streamline, 2023)</i> - un atelier hors ligne.",
+        "ru": "<b>The Art of Business Email</b> <i>(Streamline, 2023)</i> - оффлайн воркшоп.",
+        "en": "<b>The Art of Business Email</b> <i>(Streamline, 2023)</i> - an offline workshop.",
+        "fr": "<b>L'art de l'e-mail professionnel</b> <i>(Streamline, 2023)</i> - un atelier hors ligne.",
     },
     "references": {
         "ru": "Рекомендации",
